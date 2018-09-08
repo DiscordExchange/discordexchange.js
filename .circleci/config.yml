@@ -106,6 +106,9 @@ workflows:
       - test:
           requires:
             - prep
+      - snyk:
+          requires:
+            - prep
       - greenkeeper:
           requires:
             - lint
