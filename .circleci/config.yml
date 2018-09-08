@@ -60,11 +60,8 @@ jobs:
             - npm-deps-{{ checksum "package.json" }}
             - npm-deps-
       - run:
-          name: Install snyk globally
-          command: sudo npm install -g snyk
-      - run:
           name: Test using snyk
-          command: snyk test
+          command: npm run snyk
   
   greenkeeper:
     docker:

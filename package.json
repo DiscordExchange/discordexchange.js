@@ -16,10 +16,12 @@
   "scripts": {
     "test": "mocha",
     "lint": "eslint src",
+	"snyk": "snyk test",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
     "bufferutil": "^4.0.0",
+    "snyk": "^1.95.0",
     "utf-8-validate": "^5.0.1",
     "ws": "^6.0.0"
   },
