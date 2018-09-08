@@ -6,6 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/discordexchange/discordexchange.js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/discordexchange/discordexchange.js?targetFile=package.json)
 [![Greenkeeper badge](https://badges.greenkeeper.io/discordexchange/discordexchange.js.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDiscordExchange%2Fdiscordexchange.js.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FDiscordExchange%2Fdiscordexchange.js?ref=badge_shield)
 
 The nodeJS API client for Discord.Exchange
 
@@ -39,3 +40,7 @@ ExchangeClient.authenticate().then("Oh hello!").catch("Sad boyes we were not aut
 ```
 
 Upon authenticated, the `.then` clause will fire. If you are not authenticated, the `.catch` clause will fire.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDiscordExchange%2Fdiscordexchange.js.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDiscordExchange%2Fdiscordexchange.js?ref=badge_large)
