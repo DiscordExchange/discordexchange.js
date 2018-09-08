@@ -10,6 +10,9 @@ jobs:
             - npm-deps-{{ checksum "package.json" }}
             - npm-deps-
       - run:
+          name: Install FOSSA client
+          command: curl -H 'Cache-Control:no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | bash
+      - run:
           name: Install greenkeeper-lockfile globally
           command: sudo npm install -g greenkeeper-lockfile
       - run:
@@ -18,6 +21,11 @@ jobs:
       - run:
           name: Install packages
           command: npm install
+      - run:
+          name: Upload FOSSA data
+          command: fossa
+          working_directory: ./
+
       - save_cache:
           key: npm-deps-{{ checksum "package.json" }}
           paths:
