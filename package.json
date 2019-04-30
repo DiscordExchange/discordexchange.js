@@ -22,7 +22,7 @@
   "dependencies": {
     "bufferutil": "^4.0.0",
     "utf-8-validate": "^5.0.1",
-    "ws": "^6.0.0"
+    "ws": "^7.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
