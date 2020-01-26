@@ -36,7 +36,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.5.0",
     "istanbul": "^1.0.0-alpha",
-    "mocha": "^5.0.0",
+    "mocha": "^7.0.1",
     "rimraf": "^2.6.2",
     "semantic-release": "^15.9.12",
     "snyk": "^1.95.0"
